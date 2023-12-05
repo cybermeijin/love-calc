@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora do Amor</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Calculadora do Amor</h2>
+      <div class="love-calculator">
+        <label for="name1">Seu nome:</label>
+        <input type="text" id="name1" placeholder="Digite seu nome" />
+
+        <label for="name2">Nome do crush:</label>
+        <input
+          type="text"
+          id="name2"
+          placeholder="Digite o nome da pessoa amada"
+        />
+
+        <button onclick="calculateLove()">Calcular</button>
+
+        <div id="result">Resultado</div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
